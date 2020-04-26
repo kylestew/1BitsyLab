@@ -4,7 +4,6 @@ Learning STM32 programming with the 1Bitsy + BMP
 
 
 
-
 ## Tasks
 
 ### Basics
