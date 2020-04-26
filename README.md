@@ -37,6 +37,7 @@ Learning STM32 programming with the 1Bitsy + BMP
 ## Useful References
 In case of being stuck
 
-http://sgreg.fi/blog/article/bare-metal-arm-cortexm-hello-world-on-linux
-https://rhye.org/post/stm32-with-opencm3-0-compiling-and-uploading/
-https://bdebyl.net/post/stm32-part0/
+http://sgreg.fi/blog/article/bare-metal-arm-cortexm-hello-world-on-linux  
+https://rhye.org/post/stm32-with-opencm3-0-compiling-and-uploading/  
+https://bdebyl.net/post/stm32-part0/  
+https://github.com/kylestew/bluepill-example  
