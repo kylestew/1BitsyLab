@@ -1,0 +1,6 @@
+[submodule "1bitsy-hardware"]
+	path = 1bitsy-hardware
+	url = https://github.com/1Bitsy/1bitsy-hardware.git
+[submodule "libopencm3-template"]
+	path = libopencm3-template
+	url = https://github.com/libopencm3/libopencm3-template.git
