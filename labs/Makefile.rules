@@ -75,7 +75,7 @@ endif
 
 INCLUDE_DIR	= $(OPENCM3_DIR)/include
 LIB_DIR		= $(OPENCM3_DIR)/lib
-SCRIPT_DIR	= ../../../scripts
+SCRIPT_DIR	= ../
 
 ###############################################################################
 # C flags
@@ -266,7 +266,7 @@ endif
 	@printf "  BMP $(BMP_PORT) $(*).elf (flash)\n"
 	$(Q)$(GDB) -nx --batch \
 		   -ex 'target extended-remote $(BMP_PORT)' \
-		   -x $(SCRIPT_DIR)/black_magic_probe_flash.scr \
+		   -x $(SCRIPT_DIR)/bmp_flash.scr \
 		   $(*).elf
 
 .PHONY: images clean stylecheck styleclean elf bin hex srec list

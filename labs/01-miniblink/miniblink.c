@@ -30,7 +30,7 @@ int main(void) {
   while (1) {
     // toggle LED on/off
     gpio_toggle(GPIOA, GPIO8);
-    for (i = 0; i < 1000000; i++) {
+    for (i = 0; i < 100000; i++) {
       __asm__("nop");
     }
   }

@@ -1,7 +1,15 @@
 # 1BitsyLab - STM32F415RGT6
 Learning STM32 programming with the 1Bitsy + BMP
 
-## Programming
+## Flashing
+
+1) Connection the BMP to the target
+
+2) Browse to the working lab directory
+
+    $ make flash
+
+## Debugging
 
 From the [quickstart](https://1bitsy.org/overview/quickstart/) guide.
 
@@ -35,15 +43,18 @@ From the [quickstart](https://1bitsy.org/overview/quickstart/) guide.
 
 ### Basics
 
-- [ ] Get to [miniblink](https://github.com/1Bitsy/1bitsy-examples/tree/master/examples/1bitsy/miniblink)
+- [x] Get to [miniblink](https://github.com/1Bitsy/1bitsy-examples/tree/master/examples/1bitsy/miniblink)
 - [ ] Push a [Button](https://github.com/1Bitsy/1bitsy-examples/tree/master/examples/1bitsy/button)
 
 ### Intermediate
 
 [Examples](https://github.com/1Bitsy/1bitsy-examples/tree/master/examples/1bitsy)
+STM32 Youtube Channel
 
 ### Hard
 
+- [ ] Write LCD display driver
+- [ ] Interface with RGB LEDs
 - [ ] Implement PID algorithm
 
 
