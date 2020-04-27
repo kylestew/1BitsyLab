@@ -1,7 +1,34 @@
 # 1BitsyLab - STM32F415RGT6
 Learning STM32 programming with the 1Bitsy + BMP
 
+## Programming
 
+From the [quickstart](https://1bitsy.org/overview/quickstart/) guide.
+
+1) Find BMP serial device
+
+    $ ls /dev/cu.usbmodem*
+
+2) Boot up GDB with an elf file
+
+    $ arm-none-eabi-gdb miniblink.elf
+
+3) Connect to BMP in GDB
+
+    (gdb) target extend-remote /dev/cu.usbmodemXXXXX1
+    (gdb) monitor version
+
+4) Find and attach to the 1Bitsy using JTAG
+
+    (gdb) monitor jtag_scan
+    (gdb) attach 1
+
+5) Upload and run the code
+
+    (gdb) load
+    (gdb) run
+
+6) Explore your code with GDB!
 
 
 ## Tasks
@@ -17,7 +44,8 @@ Learning STM32 programming with the 1Bitsy + BMP
 
 ### Hard
 
-[1UP](https://hackaday.io/project/25632-1bitsy-1up)
+- [ ] Implement PID algorithm
+
 
 ### Understand your Tools
 
