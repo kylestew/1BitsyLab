@@ -1,10 +1,6 @@
 #include <libopencm3/stm32/gpio.h>
 #include <libopencm3/stm32/rcc.h>
 
-/*
-* Blinks onboard LED (PA8)
-*/
-
 static void gpio_setup(void) {
   /* NOTE: we are not setting up any clocks, this means the MCU will run
    * on default settings using the internal oscillator.

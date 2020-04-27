@@ -50,6 +50,7 @@ From the [quickstart](https://1bitsy.org/overview/quickstart/) guide.
 ### Understand your Tools
 
 - [ ] Get good at using GDB
+https://rhye.org/post/stm32-with-opencm3-5-fault-handlers/
 - [ ] Understand the linker file
 - [ ] Understand what an ELF file is
 - [ ] Understand how your Makefile works
