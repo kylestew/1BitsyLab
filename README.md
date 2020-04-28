@@ -50,31 +50,30 @@ From the [quickstart](https://1bitsy.org/overview/quickstart/) guide.
 ### Basics
 
 - [x] Get to [miniblink](https://github.com/1Bitsy/1bitsy-examples/tree/master/examples/1bitsy/miniblink)
-- [ ] Push a [Button](https://github.com/1Bitsy/1bitsy-examples/tree/master/examples/1bitsy/button)
+- [x] Push a [Button](https://github.com/1Bitsy/1bitsy-examples/tree/master/examples/1bitsy/button)
+
+STM32 Youtube Channel
+
+- [ ] PWM LED [Fade](https://github.com/1Bitsy/1bitsy-examples/blob/master/examples/1bitsy/pwmledfade/pwmledfade.c)
+- [ ] [USART](https://github.com/1Bitsy/1bitsy-examples/blob/master/examples/1bitsy/usart/usart.c)
 
 ### Intermediate
 
+- [ ] Write LCD display driver
 [Examples](https://github.com/1Bitsy/1bitsy-examples/tree/master/examples/1bitsy)
-STM32 Youtube Channel
 
 ### Hard
 
-- [ ] Write LCD display driver
+- [ ] Miniblink with ASM
 - [ ] Interface with RGB LEDs
 - [ ] Implement PID algorithm
-
 
 ### Understand your Tools
 
 - [ ] Get good at using GDB
-https://rhye.org/post/stm32-with-opencm3-5-fault-handlers/
 - [ ] Understand the linker file
 - [ ] Understand what an ELF file is
 - [ ] Understand how your Makefile works
-
-### Understand ASM
-
-- [ ] Blinky with ASM only
 
 
 
@@ -85,4 +84,3 @@ In case of being stuck
 http://sgreg.fi/blog/article/bare-metal-arm-cortexm-hello-world-on-linux  
 https://rhye.org/post/stm32-with-opencm3-0-compiling-and-uploading/  
 https://bdebyl.net/post/stm32-part0/  
-https://github.com/kylestew/bluepill-example  
