@@ -1,6 +1,11 @@
 # 1BitsyLab - STM32F415RGT6
 Learning STM32 programming with the 1Bitsy + BMP
 
+## Working with CLion
+
+This repo is setup to use both Make and CMake. CMake support was added for CLion, which can build and debug the labs. Most info was taken from [this repo](https://github.com/StanislavLakhtin/clion_freertos_stm32f103_template). Currently the `.gdbinit` file in the repo root needs to be copied to your home directory. This needs to be fixed, possibly by [this](https://github.com/nagelkl/clion_embedded/blob/master/setup_gdbinit.bat) workaround.
+
+
 ## Flashing
 
 1) Connection the BMP to the target
@@ -8,6 +13,7 @@ Learning STM32 programming with the 1Bitsy + BMP
 2) Browse to the working lab directory
 
     $ make flash
+
 
 ## Debugging
 

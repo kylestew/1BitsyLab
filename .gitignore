@@ -1,6 +1,33 @@
 .DS_Store
 
 
+**/*.rs.bk
+.#*
+.gdb_history
+Cargo.lock
+target/
+.vscode
+.DSStore
+.idea
+*.elf
+*.bin
+*.hex
+*.map
+*.map
+*.a
+*.o
+*.d
+.gdb_history
+.DS_Store
+cmake_install.cmake
+CMakeCache.txt
+CMakeFiles
+./libopencm3
+/cmake-*
+build
+.generated
+.release
+
 
 # Prerequisites
 *.d
