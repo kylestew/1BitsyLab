@@ -59,7 +59,7 @@ STM32 Youtube Channel
 
 ### Intermediate
 
-- [ ] Write LCD display driver
+- [ ] Write LCD display driver (SSD1306)
 [Examples](https://github.com/1Bitsy/1bitsy-examples/tree/master/examples/1bitsy)
 
 ### Hard
