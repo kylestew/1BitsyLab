@@ -2,7 +2,7 @@
 #include <libopencm3/stm32/gpio.h>
 #include <libopencm3/cm3/systick.h>
 
-/* https://github.com/1Bitsy/1bitsy-examples/blob/master/examples/1bitsy/tick_blink/tick_blink.c */
+/* https://github.com/1Bitsy/1bitsy-examples/blob/master/examples/1bitsy/timer2_blink/timer2_blink.c */
 
 volatile uint32_t system_millis;
 

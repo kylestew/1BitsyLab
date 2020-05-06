@@ -49,20 +49,22 @@ From the [quickstart](https://1bitsy.org/overview/quickstart/) guide.
 
 ### Basics
 
-- [ ] Blink LED with ASM
+- [x] Blink LED with ASM
 - [x] Get to [miniblink](https://github.com/1Bitsy/1bitsy-examples/tree/master/examples/1bitsy/miniblink)
 - [x] Push a Button
 - [x] Timer
 - [ ] Timer2 (with Interrupt)
 [link](https://github.com/1Bitsy/1bitsy-examples/blob/master/examples/1bitsy/timer2_blink/timer2_blink.c)
+- [ ] Button (with Interrupt)
+
+
+
+### Intermediate
 
 - [ ] PWM LED [Fade](https://github.com/1Bitsy/1bitsy-examples/blob/master/examples/1bitsy/pwmledfade/pwmledfade.c)
 
 - [ ] [USART](https://github.com/1Bitsy/1bitsy-examples/blob/master/examples/1bitsy/usart/usart.c)
 https://rhye.org/post/stm32-with-opencm3-1-usart-and-printf/
-
-
-### Intermediate
 
 - [ ] Write 7-Segment display driver
 - [ ] i2c to an offboard device
