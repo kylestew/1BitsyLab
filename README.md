@@ -50,12 +50,8 @@ From the [quickstart](https://1bitsy.org/overview/quickstart/) guide.
 ### Basics
 
 - [x] Blink LED with ASM
-
-TODO: do without help
-- [ ] Get to [miniblink](https://github.com/1Bitsy/1bitsy-examples/tree/master/examples/1bitsy/miniblink)
-
-
-- [ ] Push a Button
+- [x] Get to [miniblink](https://github.com/1Bitsy/1bitsy-examples/tree/master/examples/1bitsy/miniblink)
+- [x] Push a Button
 - [ ] Timer
 - [ ] Timer2 (with Interrupt)
 [link](https://github.com/1Bitsy/1bitsy-examples/blob/master/examples/1bitsy/timer2_blink/timer2_blink.c)

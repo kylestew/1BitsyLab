@@ -32,8 +32,7 @@ int main(void) {
     uint16_t portc = 0;
     while (1) {
 
-        portc = GPIOC_IDR;
-        if ( (portc & (1 << 1)) != 0) {
+        if (gpio_get(GPIOC, GPIO1)) {
             gpio_set(GPIOA, GPIO8);
         } else {
             gpio_clear(GPIOA, GPIO8);
