@@ -50,13 +50,16 @@ From the [quickstart](https://1bitsy.org/overview/quickstart/) guide.
 ### Basics
 
 - [x] Blink LED with ASM
-- [x] Get to [miniblink](https://github.com/1Bitsy/1bitsy-examples/tree/master/examples/1bitsy/miniblink)
-- [x] Push a Button
-- [x] Timer
+
+TODO: do without help
+- [ ] Get to [miniblink](https://github.com/1Bitsy/1bitsy-examples/tree/master/examples/1bitsy/miniblink)
+
+
+- [ ] Push a Button
+- [ ] Timer
 - [ ] Timer2 (with Interrupt)
 [link](https://github.com/1Bitsy/1bitsy-examples/blob/master/examples/1bitsy/timer2_blink/timer2_blink.c)
 - [ ] Button (with Interrupt)
-
 
 
 ### Intermediate
@@ -70,6 +73,10 @@ https://rhye.org/post/stm32-with-opencm3-1-usart-and-printf/
 - [ ] i2c to an offboard device
 
 ### Hard
+
+- [ ] Bare metal blinky
+https://vivonomicon.com/2018/04/02/bare-metal-stm32-programming-part-1-hello-arm/
+
 
 - [ ] Write LCD display driver (SSD1306)
 [Examples](https://github.com/1Bitsy/1bitsy-examples/tree/master/examples/1bitsy)
