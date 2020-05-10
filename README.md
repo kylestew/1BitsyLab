@@ -52,10 +52,21 @@ From the [quickstart](https://1bitsy.org/overview/quickstart/) guide.
 - [x] Blink LED with ASM
 - [x] Get to [miniblink](https://github.com/1Bitsy/1bitsy-examples/tree/master/examples/1bitsy/miniblink)
 - [x] Push a Button
-- [ ] Timer
-- [ ] Timer2 (with Interrupt)
-[link](https://github.com/1Bitsy/1bitsy-examples/blob/master/examples/1bitsy/timer2_blink/timer2_blink.c)
-- [ ] Button (with Interrupt)
+- [ ] Button Interrupt
+- [ ] [Systick](https://github.com/1Bitsy/1bitsy-examples/blob/master/examples/1bitsy/tick_blink/tick_blink.c)
+
+- [ ] Rotary Encoder
+
+
+- [ ] Simple [Timer](https://github.com/1Bitsy/1bitsy-examples/blob/master/examples/1bitsy/timer2_blink/timer2_blink.c)
+
+- [ ] ADC
+
+
+
+
+https://github.com/1Bitsy/1bitsy-examples/blob/master/examples/1bitsy/i2s-warble/i2s-warble.c
+
 
 
 ### Intermediate
@@ -66,7 +77,8 @@ From the [quickstart](https://1bitsy.org/overview/quickstart/) guide.
 https://rhye.org/post/stm32-with-opencm3-1-usart-and-printf/
 
 - [ ] Write 7-Segment display driver
-- [ ] i2c to an offboard device
+- [ ] Interface with DAC via I2C
+
 
 ### Hard
 
