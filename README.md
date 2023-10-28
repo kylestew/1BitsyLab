@@ -8,6 +8,8 @@ This repo is setup to use both Make and CMake. CMake support was added for CLion
 
 ## Flashing
 
+![Connecting](connection.JPG)
+
 1) Connection the BMP to the target
 
 2) Browse to the working lab directory
@@ -29,7 +31,7 @@ From the [quickstart](https://1bitsy.org/overview/quickstart/) guide.
 
 3) Connect to BMP in GDB
 
-    (gdb) target extend-remote /dev/cu.usbmodemXXXXX1
+    (gdb) target extended-remote /dev/cu.usbmodemXXXXX1
     (gdb) monitor version
 
 4) Find and attach to the 1Bitsy using JTAG
